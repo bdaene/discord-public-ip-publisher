@@ -1,0 +1,20 @@
+[project]
+name = "discord-public-ip-publisher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Benoît Daene", email = "benoitdaene@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "discord-py>=2.4.0",
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+discord-public-ip-publisher = "discord_public_ip_publisher:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
