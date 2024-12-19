@@ -7,7 +7,7 @@ Based on https://discordpy.readthedocs.io and https://api.ipify.org/
 ## Installation
 
 - Install uv: https://docs.astral.sh/uv/
-- Clone the project: ...
+- Clone the project: `git clone https://github.com/bdaene/discord-public-ip-publisher.git`
 - `cd discord-public-ip-publisher`
 - `uv sync`
 
