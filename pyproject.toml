@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-discord-public-ip-publisher = "discord_public_ip_publisher:main"
+discord-public-ip-publisher = "discord_public_ip_publisher.main:main"
 
 [build-system]
 requires = ["hatchling"]
